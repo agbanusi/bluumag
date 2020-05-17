@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import HomePage from './Home';
+import HomePage from './Components/Pages/Home';
 
 class BaseRouter extends React.PureComponent {
     render() {

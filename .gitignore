@@ -12,6 +12,7 @@ frontend/gui/.pnp
 frontend/gui/.pnp.js
 frontend/gui/coverage
 frontend/gui/build
+frontend/gui/package.json
 
 
 
