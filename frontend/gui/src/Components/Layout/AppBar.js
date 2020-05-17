@@ -1,9 +1,9 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography } from '@material-ui/core'
 
-function AppBar(props) {
+function MenuAppBar(props) {
     return (
-        <AppBar>
+        <AppBar position='static'>
             <Toolbar>
                 <Typography variant='h3'>
                     Logo
@@ -12,3 +12,5 @@ function AppBar(props) {
         </AppBar>
     )
 }
+
+export default MenuAppBar;
