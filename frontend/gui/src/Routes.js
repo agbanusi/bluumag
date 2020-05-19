@@ -9,6 +9,7 @@ class BaseRouter extends React.PureComponent {
             <div>
                 <Route path="/" component={MenuAppBar} />
                 <Route exact path="/" component={HomePage} />
+                <Route path="/Components/Pages" component={article} />
             </div>
         )
     }
