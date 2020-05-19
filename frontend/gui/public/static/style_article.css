@@ -48,8 +48,8 @@ body{
 }
 .icons{
     position: fixed;
-    margin-top:60vh;
-    width:100%;
+    margin-top:50vh;
+    width:8.5%;
     height:50vh;
     display: flex;
     flex-direction:column;   
@@ -61,15 +61,15 @@ body{
     padding-left:2px;
 }
 .whatsapp i{
-    font-size:30px;
+    font-size:25px;
     color:green;
 }
 .facebook i{
-    font-size:30px;
+    font-size:25px;
     color:blue;
 }
 .instagram i{
-    font-size:30px;
+    font-size:25px;
     color:hotpink;
 }
 li{
@@ -81,7 +81,8 @@ li{
 .icons{
     position: fixed;
     margin-top:50vh;
-    width:100%;
+    width:10%;
+    border: 1px solid red;
     height:50vh;
     display: flex;
     flex-direction:column;   
