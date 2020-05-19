@@ -44,7 +44,7 @@ body{
     justify-content: center;
 }
 .article{
-    width:70vw;  
+    width:75vw;  
 }
 .icons{
     position: fixed;
@@ -52,7 +52,8 @@ body{
     width:8.5%;
     height:50vh;
     display: flex;
-    flex-direction:column;   
+    flex-direction:column;
+    padding-left:2.5px;   
 }
 .icons a{
     margin-left:0px;
@@ -61,15 +62,15 @@ body{
     padding-left:2px;
 }
 .whatsapp i{
-    font-size:25px;
+    font-size:35px;
     color:green;
 }
 .facebook i{
-    font-size:25px;
+    font-size:35px;
     color:blue;
 }
 .instagram i{
-    font-size:25px;
+    font-size:35px;
     color:hotpink;
 }
 li{
@@ -77,12 +78,11 @@ li{
 }
 
 
-@media (min-width:650px){
+@media (min-width:600px){
 .icons{
     position: fixed;
     margin-top:50vh;
     width:10%;
-    border: 1px solid red;
     height:50vh;
     display: flex;
     flex-direction:column;   
